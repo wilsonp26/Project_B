@@ -126,6 +126,27 @@
                 android:layout_height="wrap_content"
                 android:text="Cameras"
                 android:textSize="25sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/camereone" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/cameratwo" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/camerathree" />
         </LinearLayout>
 
     </LinearLayout>
@@ -201,6 +222,21 @@
                     android:src="@drawable/artnine"
                     android:translationX="478dp"
                     android:translationY="412dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/camerafour" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/camerafive" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/camerasix" />
             </FrameLayout>
 
         </LinearLayout>
