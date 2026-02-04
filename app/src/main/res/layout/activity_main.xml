@@ -252,10 +252,23 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:background="@android:color/transparent"
                     android:src="@drawable/camerasix"
                     android:translationX="230dp"
                     android:translationY="180dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/lock"
+                    android:translationX="280dp"
+                    android:translationY="515dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/lock"
+                    android:translationX="325dp"
+                    android:translationY="515dp" />
             </FrameLayout>
 
         </LinearLayout>
