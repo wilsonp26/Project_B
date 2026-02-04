@@ -20,12 +20,15 @@ private Paint green = new Paint();
         setWillNotDraw(false);
         green.setColor(0xFF00FF00);
         green.setStyle(Paint.Style.FILL);
+
+        //Makes the board smaller
         board = Bitmap.createScaledBitmap(board, 1112, 834, false);
     }
     @Override
     public void onDraw(Canvas canvas) {
         canvas.drawBitmap(board, 0, 130, null);
 
+        //This is the beginning of the color declaration section
         Paint spaceGrey = new Paint();
         spaceGrey.setColor(0xFF343d46);
         spaceGrey.setStyle(Paint.Style.FILL);
@@ -46,6 +49,9 @@ private Paint green = new Paint();
         yellow.setColor(Color.YELLOW);
         yellow.setStyle(Paint.Style.FILL);
 
+        //end of the declaration section
+
+        //The drawCircles draw the head of the piece, and the rectangles draw the body
         canvas.drawCircle(420, 250, 15, spaceGrey);
         canvas.drawRect(415,250, 425, 280,spaceGrey);
 
@@ -65,3 +71,5 @@ private Paint green = new Paint();
 
 }
 
+// Attributions for the assets used in this project:
+// https://www.sprinttosave.com/product-p-674011.html
