@@ -269,6 +269,27 @@
                     android:src="@drawable/lock"
                     android:translationX="325dp"
                     android:translationY="515dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/lock"
+                    android:translationX="5dp"
+                    android:translationY="370dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/lock"
+                    android:translationX="325dp"
+                    android:translationY="515dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/lock"
+                    android:translationX="325dp"
+                    android:translationY="515dp" />
             </FrameLayout>
 
         </LinearLayout>
