@@ -15,16 +15,25 @@ public class DrawView extends SurfaceView {
     private Bitmap board =
             BitmapFactory.decodeResource(getResources(), R.drawable.coloredboard);
 
+  //  private Bitmap artTwo =
+  //          BitmapFactory.decodeResource(getResources(), R.drawable.arttwo);
+private Paint green = new Paint();
 
     public DrawView(Context context, AttributeSet attrs) {
         super(context, attrs);
         setWillNotDraw(false);
-
-        board = Bitmap.createScaledBitmap(board, 1482, 1112, false);
+        green.setColor(0xFF00FF00);
+        green.setStyle(Paint.Style.FILL);
+        board = Bitmap.createScaledBitmap(board, 1112, 834, false);
+       // artTwo = Bitmap.createScaledBitmap(artTwo, 50, 60, false);
     }
     @Override
     public void onDraw(Canvas canvas) {
-        canvas.drawBitmap(board, 40, 20, null);
+      //  canvas.drawRect(0, 0, 4000, 4000, green);
+        //canvas.drawBitmap(artTwo, 0, 130, null);
+        canvas.drawBitmap(board, 0, 130, null);
+
+
     }
 
 }

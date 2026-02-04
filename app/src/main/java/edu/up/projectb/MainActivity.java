@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        DrawView dv = findViewById(R.id.myArtwork);
+        DrawView dv = findViewById(R.id.myBoard);
     }
 }
