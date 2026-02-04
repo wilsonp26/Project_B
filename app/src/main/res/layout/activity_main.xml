@@ -233,7 +233,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="40dp"
-            android:layout_weight="2"
+            android:layout_weight=".5"
             android:gravity="right"
             android:orientation="vertical">
 
@@ -260,7 +260,9 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:orientation="vertical" />
+                    android:orientation="vertical">
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -311,13 +313,8 @@
                         android:backgroundTint="#818181ff"
                         android:text="Check Lock" />
 
-                    <Button
-                        android:id="@+id/button7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Pass Turn" />
-
                 </LinearLayout>
+
             </LinearLayout>
 
         </LinearLayout>
