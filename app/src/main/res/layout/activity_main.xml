@@ -127,26 +127,45 @@
                 android:text="Cameras"
                 android:textSize="25sp" />
 
-            <ImageView
-                android:layout_width="40dp"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:layout_margin="5dp"
-                android:src="@drawable/camereone" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:layout_margin="5dp"
-                android:src="@drawable/cameratwo" />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/cameraone" />
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:layout_margin="5dp"
-                android:src="@drawable/camerathree" />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/cameratwo" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/camerathree" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/camerafour" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
@@ -206,7 +225,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/artseven"
-                    android:translationX="375dp"
+                    android:translationX="425dp"
                     android:translationY="32dp" />
 
                 <ImageView
@@ -226,17 +245,17 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/camerafour" />
+                    android:src="@drawable/camerafive"
+                    android:translationX="375dp"
+                    android:translationY="175dp" />
 
                 <ImageView
                     android:layout_width="40dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/camerafive" />
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/camerasix" />
+                    android:layout_height="40dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/camerasix"
+                    android:translationX="230dp"
+                    android:translationY="180dp" />
             </FrameLayout>
 
         </LinearLayout>
@@ -251,7 +270,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="You've been seen :eye:"
+                android:text="You've been seen"
                 android:textSize="30sp" />
         </LinearLayout>
 
