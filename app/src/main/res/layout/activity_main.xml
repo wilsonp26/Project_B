@@ -78,30 +78,35 @@
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:layout_margin="5dp"
                 android:src="@drawable/artone" />
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:layout_margin="5dp"
                 android:src="@drawable/artthree" />
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:layout_margin="5dp"
                 android:src="@drawable/artfour" />
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:layout_margin="5dp"
                 android:src="@drawable/artfive" />
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:layout_margin="5dp"
                 android:src="@drawable/artsix" />
 
         </LinearLayout>
@@ -153,6 +158,11 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            <!--  External Citation
+                Problem: figuring out how to draw images on top of other images
+                Source: https://www.geeksforgeeks.org/android/framelayout-in-android/
+                Solution: learned how to use a frame layout
+            -->
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -175,22 +185,22 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/artseven"
-                    android:translationX="380dp"
-                    android:translationY="35dp" />
+                    android:translationX="375dp"
+                    android:translationY="32dp" />
 
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/arteight"
-                    android:translationX="180dp"
-                    android:translationY="400dp" />
+                    android:translationX="135dp"
+                    android:translationY="415dp" />
 
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/artnine"
-                    android:translationX="480dp"
-                    android:translationY="435dp" />
+                    android:translationX="478dp"
+                    android:translationY="412dp" />
             </FrameLayout>
 
         </LinearLayout>
@@ -300,6 +310,12 @@
                         android:layout_marginTop="30dp"
                         android:backgroundTint="#818181ff"
                         android:text="Check Lock" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pass Turn" />
 
                 </LinearLayout>
             </LinearLayout>
