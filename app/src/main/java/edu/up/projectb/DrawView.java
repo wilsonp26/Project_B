@@ -26,6 +26,7 @@ private Paint green = new Paint();
     public void onDraw(Canvas canvas) {
         canvas.drawBitmap(board, 0, 130, null);
 
+        //This is the beginning of the color declaration section
         Paint spaceGrey = new Paint();
         spaceGrey.setColor(0xFF343d46);
         spaceGrey.setStyle(Paint.Style.FILL);
@@ -46,6 +47,9 @@ private Paint green = new Paint();
         yellow.setColor(Color.YELLOW);
         yellow.setStyle(Paint.Style.FILL);
 
+        //end of the declaration section
+
+        //dude i have no freaking idea what this does pls update this comment (- Logan)
         canvas.drawCircle(420, 250, 15, spaceGrey);
         canvas.drawRect(415,250, 425, 280,spaceGrey);
 
