@@ -360,14 +360,6 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/cutWiresButton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:backgroundTint="#818181ff"
-                        android:text="Cut Wires" />
-
-                    <Button
                         android:id="@+id/stealPaintingButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -383,15 +375,6 @@
                         android:layout_marginTop="30dp"
                         android:backgroundTint="#818181ff"
                         android:text="Disable Camera" />
-
-                    <Button
-                        android:id="@+id/cutPowerButton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="30dp"
-                        android:backgroundTint="#818181ff"
-                        android:text="Cut Power" />
 
                     <Button
                         android:id="@+id/checkLockButton"
